@@ -1,6 +1,6 @@
 FROM python:3.10.9-slim-bullseye
 
-ENV KUBESPRAY_REPO_REF="v2.20.0"
+ENV KUBESPRAY_REPO_REF="v2.21.0"
 ENV ANSIBLECORE_VERSION="2.12"
 
 RUN apt-get update && apt-get install -y openssh-client && rm -rf /var/lib/apt/lists/*
